@@ -1,0 +1,12 @@
+{
+    "user": {
+        "linters": {
+            "json": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "strict": true
+            }
+        }
+    }
+}

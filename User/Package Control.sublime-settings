@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Anaconda",
+		"AutoDocstring",
+		"EasyClangComplete",
+		"Git",
+		"MarkdownLivePreview",
+		"Material Theme",
+		"MayaSublime",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-json",
+		"Terminal"
+	]
+}

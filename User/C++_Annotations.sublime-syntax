@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: C++_Annotations
+comment: Extention of C++ to include annotations TODO etc
+file_extensions:
+  - cpp
+  - cc
+  - cp
+  - cxx
+  - c++
+  - C
+  - h
+  - hh
+  - hpp
+  - hxx
+  - h++
+  - inl
+  - ipp
+first_line_match: '-\*- C\+\+ -\*-'
+scope: source.c++
+
+contexts:
+  main:
+    - match: ''
+      push: Packages/C++/C++.sublime-syntax
+      with_prototype:
+        - match: \bTODO:\B
+          scope: annotation.todo
+        - match: \bNOTE:\B
+          scope: annotation.note
+        - match: \bIMPORTANT:\B
+          scope: annotation.important

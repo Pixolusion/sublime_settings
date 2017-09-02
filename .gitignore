@@ -1,0 +1,19 @@
+# Custom builds should not be checked in as they tend to be host specific
+*.sublime-build
+
+# Cache files for Sublime Text
+*.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
+
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
